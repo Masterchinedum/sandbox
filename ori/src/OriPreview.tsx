@@ -73,13 +73,7 @@ const FloorShadow: React.FC = () => {
   return (
     <g>
       <ellipse cx={SEAT.x} cy={floorY} rx={380} ry={64} fill="url(#preview-floor)" />
-      <ellipse
-        cx={SEAT.x}
-        cy={floorY}
-        rx={220}
-        ry={21}
-        fill="url(#preview-floor)"
-      />
+      <ellipse cx={SEAT.x} cy={floorY} rx={220} ry={21} fill="url(#preview-floor)" />
     </g>
   );
 };
