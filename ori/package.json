@@ -1,0 +1,26 @@
+{
+  "name": "ori-sandbox",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Ori, one robot from the drawn conversation Shorts, on its own for redesigning.",
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "still": "remotion still src/index.ts ori out/ori.png --frame=40",
+    "render": "remotion render src/index.ts ori out/ori.mp4",
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write src"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.535",
+    "react": "19.2.9",
+    "react-dom": "19.2.9",
+    "remotion": "4.0.535"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "@types/react": "19.2.18",
+    "prettier": "3.9.10",
+    "typescript": "5.9.3"
+  }
+}
